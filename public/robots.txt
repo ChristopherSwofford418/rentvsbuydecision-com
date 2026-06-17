@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rentvsbuydecision.com/sitemap.xml

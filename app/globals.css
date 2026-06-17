@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --bg: #ffffff;
+  --fg: #0b1320;
+}
+html, body { background: var(--bg); color: var(--fg); }
+body { font-feature-settings: "ss01", "cv11"; }
+.prose-article h2 { @apply text-2xl font-semibold mt-10 mb-3 tracking-tight; }
+.prose-article h3 { @apply text-xl font-semibold mt-8 mb-2 tracking-tight; }
+.prose-article p { @apply mb-4 leading-relaxed text-[1.05rem]; }
+.prose-article ul { @apply list-disc pl-6 mb-4; }
+.prose-article ol { @apply list-decimal pl-6 mb-4; }
+.prose-article a { @apply text-accent underline underline-offset-2; }
+.prose-article blockquote { @apply border-l-4 border-accent pl-4 italic my-6 text-gray-700; }
